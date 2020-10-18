@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="OctagonCloud">
+    <output-path>$PROJECT_DIR$/out/artifacts/OctagonCloud</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.octagon.Main" />
+        <option name="description" value="" />
+        <option name="height" value="322" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/src/com/octagon/image/t1.png" />
+            <option name="macIcon" value="$PROJECT_DIR$/src/com/octagon/image/t1.png" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/com/octagon/image/t1.png" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="title" value="OctagonCloud" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.2" />
+        <option name="width" value="366" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="OctagonCloud.jar">
+        <element id="module-output" name="OctagonCloud" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../Desktop/home2/Package/commons-io-2.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../Desktop/home2/Package/commons-lang3-3.9.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../Desktop/home2/Package/commons-net-3.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../Desktop/home2/Package/jfoenix-1.8.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../Desktop/home2/Package/jpathwatch-0-95.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../Desktop/home2/Package/junit.jar" path-in-jar="/" />
+      </element>
+    </root>
+  </artifact>
+</component>

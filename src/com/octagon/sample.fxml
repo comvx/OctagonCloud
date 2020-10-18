@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="frame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="366.0" style="-fx-background-color: rgba(0,0,0,0.2)rgba(0,0,0,0.2) rgba(0,0,0,0.2)rgba(0,0,0,0.2) rgba(0,0,0,0.2)rgba(0,0,0,0.2) rgba(0,0,0,0.2)rgba(0,0,0,0.2);" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.octagon.Controller">
+    <children>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#MOVEdragged" onMousePressed="#MOVEpressed" prefHeight="322.0" prefWidth="366.0" style="-fx-background-color: #222324 #222324 #222324 #222324;">
+            <children>
+                <ImageView id="logo" fitHeight="58.0" fitWidth="96.0" layoutX="135.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/logo.gif" />
+                    </image>
+                </ImageView>
+                <AnchorPane prefHeight="34.0" prefWidth="366.0" style="-fx-background-color: #222324 #222324 #222324 #222324 #222324 #222324; -fx-effect: dropshadow(three-pass-box, rgba(22,22,22), 10, 0, 0, 0);">
+                    <children>
+                        <Circle fill="#00ca4e" layoutX="352.0" layoutY="18.0" onMousePressed="#hide" radius="6.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#ff605c" layoutX="317.0" layoutY="18.0" onMousePressed="#close" radius="6.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fx:id="buttonClose" fill="#ffbd44" layoutX="335.0" layoutY="18.0" onMousePressed="#mini" radius="6.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                  <Text fill="WHITE" layoutX="5.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Octagon  | ">
+                     <font>
+                        <Font name="Quicksand Regular" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="96.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cloud">
+                     <font>
+                        <Font name="Quicksand Regular" size="15.0" />
+                     </font>
+                  </Text>
+                    </children>
+                </AnchorPane>
+                <Separator layoutX="22.0" layoutY="214.0" prefHeight="12.0" prefWidth="322.0" />
+                <JFXToggleButton fx:id="tB" focusTraversable="false" layoutX="42.0" layoutY="254.0" onMousePressed="#sele" text="Timestamp" textFill="#3aa9e0" toggleColor="#3aa9e0" toggleLineColor="#3d86a7" />
+                <JFXToggleButton fx:id="aB" focusTraversable="false" layoutX="228.0" layoutY="255.0" onMousePressed="#seleA" text="Auto" textFill="#3aa9e0" toggleColor="#3aa9e0" toggleLineColor="#3d86a7" />
+            <Label layoutX="57.0" layoutY="226.0" text="Server: OctagonCloud" textFill="#9a9a9a">
+               <font>
+                  <Font name="Quicksand Regular" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="226.0" text="Username: admin" textFill="#9a9a9a">
+               <font>
+                  <Font name="Quicksand Regular" size="12.0" />
+               </font>
+            </Label>
+                <JFXButton focusTraversable="false" layoutX="29.0" layoutY="155.0" onMousePressed="#SYNX" prefHeight="42.0" prefWidth="308.0" style="-fx-background-color: rgba(0,0,0,0.05);" text="S Y N X" textFill="#cdcdcd">
+                    <font>
+                        <Font name="Monospaced Regular" size="24.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="WAIT" />
+               </cursor>
+                </JFXButton>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
