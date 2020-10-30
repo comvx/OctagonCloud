@@ -22,6 +22,9 @@
     An open source Cloud client using Java
     <br />
   <br />
+  __________________________________________
+  <br />
+  <br />
   <br />
   <img src="/images/GIT.png">
     <br />
