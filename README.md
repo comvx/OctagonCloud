@@ -29,4 +29,4 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]
-[product-screenshot]: /OctagonCloud/images/GIT.png
+[product-screenshot]: /OctagonCloud/blob/master/images/GIT.png
