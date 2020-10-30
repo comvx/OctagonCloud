@@ -26,7 +26,7 @@
 </p>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+About The Project / GUI
 
 [![Product Name Screen Shot][product-screenshot]
 [product-screenshot]: /images/GIT.png
