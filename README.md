@@ -21,6 +21,8 @@
   <p align="center">
     An open source Cloud client using Java
     <br />
+  <br />
+  <br />
   <img src="/images/GIT.png">
     <br />
   </p>
